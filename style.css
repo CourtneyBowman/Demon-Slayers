@@ -1,0 +1,48 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 194px;
+  height: 526px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  width: 188px;
+  height: 130px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background-size: cover;
+}
+
+#tanjiro{
+  background-image: url("tanjiro.png");
+}
+#nezuko{
+  background-image: url("nezuko.png");
+}
+#zenitsu{
+  background-image: url("zenitsu.png");
+}
+#inosuke{
+  background-image: url("inosuke.png");
+}
